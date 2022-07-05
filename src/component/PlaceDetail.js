@@ -36,7 +36,7 @@ const PlaceDetail = (props) => {
   return (
     <View style={[styles.PlaceDetail, {
       backgroundColor: darkMode === true ? '#333333' : '#ffffff',
-      top: isKeyboardVisible ? 200 : 0,
+      top: isKeyboardVisible ? 150 : 0,
     }]}>
 
       <Image
